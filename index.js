@@ -1,7 +1,5 @@
 let number = document.getElementById("number")
 let number2 = document.getElementById("number2")
-let background = document.querySelector("score")
-let background2 = document.querySelector("score2")
 let score = 0
 let score2 = 0
 

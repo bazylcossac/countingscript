@@ -4,11 +4,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    
-    
-
-    
-    
+ 
 }
 #box{
     display:flex;
@@ -30,16 +26,13 @@ body {
     background-color:#200000;
     border: 1px solid white;
     border-radius: 6px;
-   
     
 }
 
 h3{
     text-align: center;
     color:white;
-    
-    
-    
+       
 }
 
 span{
@@ -73,10 +66,7 @@ span{
 }
 
 .hvr-push:active {
-    
     color: white;
-    
-  
     transform: scale(1.2);
 }
 
@@ -84,11 +74,7 @@ span{
 #reset3{
     display: flex;
     font-family: 'Paytone One', sans-serif;
-    align-items: center;
-	
-   
-   
-    
+    align-items: center;    
     
 }
 
