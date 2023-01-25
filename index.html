@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&family=Paytone+One&family=Poppins&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        <div id="box">
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div id="score">
+                    <span id="number">0</span>
+                </div>
+                 <div id="buttons">
+                   <button onclick="add1()" class="hvr-push">+1</button>
+                    <button onclick="add3()" class="hvr-push">+3</button>
+                    <button onclick="add5()" class="hvr-push">+5</button>   
+                </div> 
+            </div>
+            <div id="reset3">
+                    <button onclick="resets()" class="hvr-push">NEW GAME</button>
+                </div>
+            <div>
+                <h3>GUEST</h3>
+                 <div id="score2">
+                    <span id="number2">0</span>
+                </div>
+                <div id="buttons">
+                   <button onclick="add1s()" class="hvr-push">+1</button>
+                    <button onclick="add3s()" class="hvr-push">+3</button>
+                    <button onclick="add5s()" class="hvr-push">+5</button>  
+                </div>         
+            </div>   
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
